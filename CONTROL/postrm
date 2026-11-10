@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# <!-- **************************************  -->
+# <!-- Don't Remove this Disclaimer            -->
+# <!-- **************************************  -->
+echo "****************************************"
+echo "*Please .. Restart Enigma2 *"
+echo "****************************************"
+echo "Checking for an older version of TelevideoRAI in the system..."
+EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/TelevideoRAI/"
+if [ -d "$EXTDIR" ]; then
+	rm -rf "$EXTDIR" > /dev/null 2>&1
+fi
+echo "***********************************"
+echo "* Proceeding to installation...   *"
+echo "***********************************"
+exit 0
+

@@ -1,0 +1,11 @@
+Package: enigma2-plugin-extensions-televideorai
+Version: 1.0
+Section: enigma2
+Priority: optional
+Architecture: all
+Maintainer: Lululla
+Description: TelevideoRAI
+Source: enigma2-plugin-extensions-televideorai
+Homepage: *
+OE: enigma2-plugin-extensions-televideorai
+License: *
